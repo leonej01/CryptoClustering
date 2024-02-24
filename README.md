@@ -8,8 +8,7 @@ In this Challenge, you’ll apply your understanding of the K-means algorithm an
 
 Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
 Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
-The first five rows of the scaled DataFrame should appear as follows:
-The first five rows of the scaled DataFrame.
+
 
 **Find the Best Value for k Using the Original Scaled DataFrame**
 
@@ -28,7 +27,7 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
 2. Create an instance of K-means, define the number of clusters based on the best value of k, and then fit the model using the original scaled DataFrame.
 3. Predict the clusters to group the cryptocurrencies using the original scaled DataFrame.
 4. Create a copy of the original data and add a new column with the predicted clusters.
-5. Create a scatterplot using pandas’ plot as follows:
+5. Create a scatterplot using pandas’ plot.
 6. Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
 
 **Optimize Clusters with Principal Component Analysis**
